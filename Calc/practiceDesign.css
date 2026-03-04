@@ -1,0 +1,26 @@
+ body{
+    margin: 0;
+    padding: 0;
+    background-color: #EEE;
+    font-family: 'Roboto', sans-serif;
+}
+
+.Calculator{
+    margin: 10px;
+    text-align: center;
+}
+.CalculatorHead input{
+    text-align: right;
+    width: 200px;
+    height: 50px;
+}
+.CalculatorBody{
+    font-size: 0px;
+    color: aqua;
+}
+.btn{
+    width: 50px;
+    height: 30px;
+    background-color: bisque;
+}
+
