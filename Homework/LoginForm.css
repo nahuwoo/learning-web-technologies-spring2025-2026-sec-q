@@ -1,0 +1,16 @@
+*{
+    background-color: rgb(172, 188, 202);
+    margin:1Px;
+
+}
+#start{
+    position: relative;
+    top:100px;
+    bottom:100px;
+    right:100px;
+    left:100px;
+    text-align:center;
+    width: 100px;
+    height: 20px;
+    
+}
