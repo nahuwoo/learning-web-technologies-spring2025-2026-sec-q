@@ -22,7 +22,7 @@ body{
 }
 
 .cell:hover{
-    background-color:lightgray;
+    background-color: lightblue;
 }
 
 .winner{
