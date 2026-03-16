@@ -1,12 +1,9 @@
-
-
 .page{
     width: 300px;
     margin: auto;
     padding: 20px;
     border: 2px solid black;
 }
-
 input{
     padding: 5px;
     width: 120px;
