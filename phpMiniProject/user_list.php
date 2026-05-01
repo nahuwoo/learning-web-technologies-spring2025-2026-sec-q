@@ -1,0 +1,11 @@
+<?php
+    if(isset($_REQUEST['submit'])){
+        $name=$_REQUEST['name'];
+        $email=$_REQUEST['email'];
+        $username=$_REQUEST['username'];
+        $password=$_REQUEST['password'];
+        $confirm_password=$_REQUEST['confirm_password'];
+        $gender=$_REQUEST['gender'];
+        $dob=$_REQUEST['dob'];
+    }
+?>
