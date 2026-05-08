@@ -4,28 +4,27 @@
     <div id="containder" style="font-family: 'Times New Roman', Times, serif;">
         <b style="font-size: 30; color: green;"> X Company</b>
         <div id="navigation" style="float: right">
-        <a href="public_home.html">Home</a>
+        <a href="../public_home.html">Home</a>
         <a href="login.html">Login</a>
-        <a href="registration.html">Registration</a>
+        <a href="registration.php">Registration</a>
         </div>
 
         <hr>
-            <form method="post" enctype="multipart/form-data" action="user_list.php">
+            <form method="post" enctype="multipart/form-data" action="../controller/registration_check.php">
                 <fieldset>
                     <legend>REGISTRATION</legend>
                     Name: <input type="text" name="name" value=""><br>
                     Email: <input type="text" name="email" value=""><br>
                     Username: <input type="text" name="username" value=""><br>
-                    Password: <input type="text" name="password" value=""><br>
-                    Confirm Password: <input type="text" name="password" value=""><br>
+                    Password: <input type="password" name="password" value=""><br>
 
-                    <legend>Gender</legend>
+                    <!-- <legend>Gender</legend>
                     <input type="radio" name="gender" value="Male">Male
-                    <input type="radio" name="gender" value="Male">Female
-                    <input type="radio" name="gender" value="Male">Other<br>
+                    <input type="radio" name="gender" value="Female">Female
+                    <input type="radio" name="gender" value="Other">Other<br>
 
                     <legend>Date of Birth</legend>
-                    <input type="date" name="dob" value=""><br>
+                    <input type="date" name="dob" value=""><br> -->
 
                     <input type="submit" name="submit" value="submit">
                     <input type="reset" name="reset" value="reset">
